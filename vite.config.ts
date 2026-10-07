@@ -3,5 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/habit-tracker/',
+  // Use relative asset URLs so the app works correctly on GitHub Pages
+  // project URLs (/habit-tracker/) and other hosting paths.
+  base: './',
 })
