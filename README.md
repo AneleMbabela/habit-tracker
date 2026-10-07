@@ -1,33 +1,36 @@
 # Habit Tracker
 
-A modern, responsive habit tracker built with React, TypeScript and Vite.
+A responsive React + TypeScript CRUD habit tracker built with Vite.
 
 ## Features
 
-- Add habits
-- Edit habits
+- Create habits with a name, description, category and schedule
+- Read and view all habits
+- Update existing habits
 - Delete habits with confirmation
 - Mark habits complete/incomplete for today
-- Daily progress tracking
-- Streak calculation
+- Daily progress percentage
+- Habit streak calculation
 - Category filtering
-- Custom weekly schedules
-- Dark/light theme
+- Light/dark theme
 - LocalStorage persistence
-- Responsive desktop and mobile UI
-- GitHub Pages deployment
+- Responsive mobile-friendly interface
 
-## Run locally
+## Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+Build for production:
 
 ```bash
 npm run build
 ```
 
-Data is stored locally in the browser; no backend is required.
+## Deployment
+
+GitHub Actions builds and deploys the app to GitHub Pages from the `main` branch.
+
+Live site: https://anelembabela.github.io/habit-tracker/
